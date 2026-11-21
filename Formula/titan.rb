@@ -1,9 +1,9 @@
 class Titan < Formula
   desc "Reproducible per-project Linux dev environments on your Mac, in lightweight VMs"
   homepage "https://github.com/manoj1604/titan"
-  version "0.3.1"
+  version "0.3.2"
   url "https://github.com/manoj1604/titan/releases/download/v#{version}/titan-#{version}-macos-arm64.tar.gz"
-  sha256 "b0059c48f2aad10a9af7e29307f27a52be718e87bbe51436e3f04444a23f56a7"
+  sha256 "cb748bdd1475fa8885fbf3e2124788455cc27a6ef7420418376d3ff94c53fd95"
   license "Apache-2.0"
 
   depends_on arch: :arm64
