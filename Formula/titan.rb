@@ -21,8 +21,9 @@ class Titan < Formula
 
   def caveats
     <<~EOS
-      Finish setup (starts Apple container, adds the shell hook after asking):
-        titan setup
+      Get started: in a project folder, run
+        titan create          (or: titan create node / python / go …)
+      The first run also starts Apple's container service and sets up your shell.
     EOS
   end
 
